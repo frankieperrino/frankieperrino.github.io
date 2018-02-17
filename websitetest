@@ -12,11 +12,11 @@
       <button class="tablinks"
       onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
         <button class="tablinks"
-        onclick="openCity(event, 'Activities')">Activities</button>
+        onclick="openCity(event, 'Activities')" id="defaultOpen">Activities</button>
         <button class="tablinks"
-        onclick="openCity(event, 'Relaxation')">Relaxation</button>
+        onclick="openCity(event, 'Relaxation')" id="defaultOpen">Relaxation</button>
         <button class="tablinks"
-        onclick="openCity(event, 'Foods')">Foods</button>
+        onclick="openCity(event, 'Foods')" id=defaultOpen">Foods</button>
   </div>
 
 <div id="Home" class="tabcontent">

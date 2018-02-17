@@ -10,13 +10,13 @@
 
     <div class="tab">
       <button class="tablinks"
-      onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
+      onclick="openCity(event, 'Home')">Home</button>
         <button class="tablinks"
-        onclick="openCity(event, 'Activities')" id="defaultOpen">Activities</button>
+        onclick="openCity(event, 'Activities')">Activities</button>
         <button class="tablinks"
-        onclick="openCity(event, 'Relaxation')" id="defaultOpen">Relaxation</button>
+        onclick="openCity(event, 'Relaxation')">Relaxation</button>
         <button class="tablinks"
-        onclick="openCity(event, 'Foods')" id=defaultOpen">Foods</button>
+        onclick="openCity(event, 'Foods')">Foods</button>
   </div>
 
 <div id="Home" class="tabcontent">

@@ -42,7 +42,7 @@ be today. </p>
 
 
   <div id="Activities" class="tabcontent">
-    <h3>Mabrey's Favorite Things to Do</h3>
+    <h1>Mabrey's Favorite Things to Do</h1>
     <p> Mabrey is a dog. Therefore she loves to do many of the same things
     that dogs usually do. She loves playing with her toys outside. Her favorite
     toys include her rope for tug of war, and any type of stuffed animal that
@@ -53,7 +53,7 @@ be today. </p>
   </div>
 
   <div id="Relaxation" class="tabcontent">
-    <h3>Mabrey's favorite relaxation spots</h3>
+    <h1>Mabrey's favorite relaxation spots</h1>
     Another major part of Mabrey's life is relaxation. Much like a two year old
     human would, she will not rest for most of the day and is constantly running
     around. Then at about 8:00 pm she climbs onto her bed or the couch and
@@ -64,7 +64,7 @@ be today. </p>
   </div>
 
   <div id="Foods" class="tabcontent">
-    <h3>Mabrey's favorite foods</h3>
+    <h1>Mabrey's favorite foods</h1>
     Mabrey's life, when it is not focused on her family, is focused on her next
     meal. Any time one of us is making food she is right there waiting for
     something to drop. Then when we are eating the food, she will be right
@@ -75,21 +75,23 @@ be today. </p>
 
 
 
-  <script>
-  function openCity(evt, cityName) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablinks");
-      for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-      }
-      document.getElementById(cityName).style.display = "block";
-      evt.currentTarget.className += " active";
-  }
-  </script>
+ <script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+     
+
 
 
 
